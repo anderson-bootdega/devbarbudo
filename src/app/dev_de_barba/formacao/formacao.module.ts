@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { FormLayoutDemoComponent } from './formlayoutdemo.component';
-import { FormLayoutDemoRoutingModule } from './formlayoutdemo-routing.module';
+import { FormacaoComponent } from './formacao.component';
+import { FormacaoRoutingModule } from './formacao-routing.module';
 import { AutoCompleteModule } from "primeng/autocomplete";
 import { CalendarModule } from "primeng/calendar";
 import { ChipsModule } from "primeng/chips";
@@ -18,7 +18,7 @@ import { InputTextModule } from "primeng/inputtext";
 	imports: [
 		CommonModule,
 		FormsModule,
-		FormLayoutDemoRoutingModule,
+		FormacaoRoutingModule,
 		AutoCompleteModule,
 		CalendarModule,
 		ChipsModule,
@@ -30,6 +30,6 @@ import { InputTextModule } from "primeng/inputtext";
 		InputTextareaModule,
 		InputTextModule
 	],
-	declarations: [FormLayoutDemoComponent]
+	declarations: [FormacaoComponent]
 })
-export class FormLayoutDemoModule { }
+export class FormacaoModule { }

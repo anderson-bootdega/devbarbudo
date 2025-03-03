@@ -65,10 +65,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "devbarbudo-ng:build:production"
+                            "buildTarget": "devbarbudo:build:production"
                         },
                         "development": {
-                            "buildTarget": "devbarbudo-ng:build:development"
+                            "buildTarget": "devbarbudo:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "buildTarget": "devbarbudo-ng:build"
+                        "buildTarget": "devbarbudo:build"
                     }
                 },
                 "test": {

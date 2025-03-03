@@ -15,14 +15,14 @@ export class AppMenuComponent implements OnInit {
     ngOnInit() {
         this.model = [
             {
-                label: 'Vida',
+                
                 items: [
-                    { label: 'Quem Sou', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
-                    { label: 'Formação', icon: 'pi pi-fw pi-check-square', routerLink: ['/uikit/input'] },
+                    { label: 'Quem Sou', icon: 'pi pi-fw pi-id-card', routerLink: ['/dev_de_barba/biografia'] },
+                    { label: 'Formação', icon: 'pi pi-fw pi-check-square', routerLink: ['/dev_de_barba/formacao'] },
                     { label: 'Habilidades', icon: 'pi pi-fw pi-bookmark', routerLink: ['/uikit/floatlabel'] }
-                ]
-            }
-          
+                ],
+               
+            }, 
 
           
         ];
